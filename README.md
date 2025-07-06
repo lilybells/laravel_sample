@@ -29,13 +29,7 @@ docker-compose up -d --build
 docker-compose logs -f
 ```
 
-### 3. Laravel プロジェクトの作成
-
-```bash
-
-```
-
-### 4. データベースの設定
+### 3. データベースの設定
 
 ```bash
 # マイグレーションを実行
@@ -71,15 +65,6 @@ docker-compose exec app php artisan migrate
 docker-compose exec app composer install
 docker-compose exec app php artisan tinker
 ```
-
-## データベース接続情報
-
-- **ホスト**: `db`
-- **ポート**: `3306`
-- **データベース名**: `laravel`
-- **ユーザー名**: `laravel`
-- **パスワード**: `secret`
-- **root パスワード**: `root`
 
 ## トラブルシューティング
 
