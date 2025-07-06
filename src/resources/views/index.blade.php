@@ -36,13 +36,5 @@
             </div>
         </div>
     </div>
-
-    <div class="card text-center">
-        <h2 class="mb-3">クイックアクセス</h2>
-        <div>
-            <a href="http://localhost:8080" class="btn" target="_blank">phpMyAdmin を開く</a>
-            <a href="/welcome" class="btn btn-secondary">元のWelcomeページ</a>
-        </div>
-    </div>
 </div>
 @endsection 
